@@ -7,7 +7,6 @@ bool activated = false;
 
 class $modify(MenuLayer) {
     bool init() {
-
         if (!MenuLayer::init()) return false;
         if (!activated) {
             [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil]; 
