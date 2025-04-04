@@ -8,6 +8,9 @@
 	"name": "Sound On Silent Mode",
 	"developer": "pengubow",
 	"description": "Adds sound on silent mode on iOS",
+	"links": {
+            "source": "https://github.com/pengubow/SoundOnSilentMode-ios"
+        },
 	"settings": {
 	    "enable-mod": {
                 "type": "bool",
