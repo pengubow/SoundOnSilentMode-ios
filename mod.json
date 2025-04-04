@@ -3,9 +3,17 @@
 	"gd": {
 		"ios": "2.2074"
 	},
-	"version": "v1.1.1",
+	"version": "v1.1.2",
 	"id": "pengubow.soundonsilentmode",
 	"name": "Sound On Silent Mode",
 	"developer": "pengubow",
-	"description": "Adds sound on silent mode on iOS"
+	"description": "Adds sound on silent mode on iOS",
+	"settings": {
+	    "enable-mod": {
+                "type": "bool",
+                "name": "Enable Sound On Silent Mode",
+                "description": "The silent mode sure does get some sound with this on!",
+                "default": true
+            }
+	}
 }
