@@ -1,3 +1,6 @@
+# 1.1.4
+- gode 4.6.0
+- oh yeah i skipped .3 cuz i hate the number 3 grr!!!
 # 1.1.2
 - add settings so no need for a restart now to disable the mod!
 - unfortunately no more shortest mod
