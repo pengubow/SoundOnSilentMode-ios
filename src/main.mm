@@ -5,7 +5,7 @@
 using namespace geode::prelude;
 
 $execute {
-    listenForSettingChanges("enable-mod", [](bool enabled) {
+    listenForSettingChanges<bool>("enable-mod", [](bool enabled) {
         if (enabled) {
             [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
         }
@@ -25,3 +25,4 @@ $on_mod(Loaded) {
     }
     [[AVAudioSession sharedInstance] setActive:YES error:nil];
 };
+
