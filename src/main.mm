@@ -1,4 +1,5 @@
 #include <Geode/loader/Mod.hpp>
+#include <Geode/loader/ModEvent.hpp>
 #include <Geode/loader/SettingV3.hpp>
 #include <AVFoundation/AVAudioSession.h>
 
